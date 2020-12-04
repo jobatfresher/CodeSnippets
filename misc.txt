@@ -1,5 +1,6 @@
 https://technet.microsoft.com/en-us/virtuallabs/bb467605.aspx
 https://github.com/bodempudi/devopslearning.git
+liquibase   --driver=com.microsoft.sqlserver.jdbc.SQLServerDriver  --classpath="sqljdbc42.jar"  --url="jdbc:sqlserver://DELL-PC\MSSQLSERVOCT2020;databaseName=sampledb;integratedSecurity=false;" --changeLogFile="ipc.xml" --username=NewAdminName --password=ABCD --labels="cust sql file ex"  --logLevel=info Update
 https://venkatdevops20200822@dev.azure.com/venkatdevops20200822/ConsoleApp5/_git/ConsoleApp5
 http://thedatabaseavenger.com/2016/07/sql-server-and-continuous-integration/
 @concat('filename_',substring(dataset().FromDate,6,4),substring(dataset().FromDate,0,2),substring(dataset().FromDate,3,2),'24_',replace(substring(dataset().FromDate,11,8),':',''),'_',substring(dataset().ToDate,6,4),substring(dataset().ToDate,0,2),substring(dataset().ToDate,3,2),'24_',replace(substring(dataset().ToDate,11,8),':',''),'.csv')
